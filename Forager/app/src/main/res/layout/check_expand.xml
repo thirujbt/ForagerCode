@@ -1,0 +1,117 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.forager.meal.ui.activity.BreakFast_Activity" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <RelativeLayout
+            android:id="@+id/activity_expandable_list_view_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/image_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/header_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/forager_leaf"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="BreakFast"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+        <com.forager.meal.widget.FloatingGroupExpandableListView
+            android:id="@+id/myList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:childDivider="@color/child_divider_color"
+            android:dividerHeight="1dp"
+            android:groupIndicator="@null"
+            android:scrollbars="none" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/chart_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/profile" />
+
+            <TextView
+                android:id="@+id/txt_eaten"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/chart_image"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#ff63c036"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="Mark BreakFast as eaten"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txt_extraFoods"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_eaten"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:drawableRight="@drawable/right_arrow"
+                android:gravity="center"
+                android:text="ExtraFoods"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+        <com.forager.meal.widget.FloatingGroupExpandableListView
+            android:id="@+id/extraFoods_myList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:childDivider="@color/child_divider_color"
+            android:dividerHeight="1dp"
+            android:groupIndicator="@null"
+            android:scrollbars="none"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</ScrollView>

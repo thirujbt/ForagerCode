@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/child_text"
+        android:layout_width="0dp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_height="@dimen/thirty"
+        android:layout_weight="4"
+        android:layout_marginLeft="@dimen/five"
+        android:text="test"
+        android:layout_gravity="center"
+        android:gravity="center_vertical" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_tickIcon"
+        android:src="@drawable/tick"
+        android:background="#ffffff"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/three"
+        android:visibility="invisible"/>
+
+</LinearLayout>

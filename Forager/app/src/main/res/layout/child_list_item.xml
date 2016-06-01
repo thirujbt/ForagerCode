@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/child_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="@dimen/ten"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:text="Hello"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/five">
+
+        <TextView
+            android:id="@+id/child_text"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/thirty"
+            android:layout_weight="10"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="BreakFast"
+            android:textColor="@color/black" />
+
+        <!--  <ImageView
+              android:id="@+id/group_title_image"
+              android:layout_width="wrap_content"
+              android:visibility="visible"
+              android:src="@drawable/right_arrow"
+              android:background="@color/white"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:layout_marginRight="10dp"
+              android:baselineAlignBottom="false" />-->
+
+        <ImageView
+            android:id="@+id/tick_icon"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:baselineAlignBottom="false"
+            android:src="@drawable/tick"
+
+            android:visibility="gone" />
+        <!-- <ImageView
+             android:id="@+id/tick_icon"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:background="#ffffff"
+             android:src="@drawable/tick"
+             android:visibility="gone" />
+ -->
+    </LinearLayout>
+</LinearLayout>

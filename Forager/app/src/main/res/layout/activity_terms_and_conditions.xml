@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.forager.meal.ui.activity.TermsAndConditions">
+
+    <TextView
+        android:id="@+id/title_terms_conditions"
+        android:layout_width="match_parent"
+        android:text="@string/title_activity_terms_and_conditions"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="@dimen/ten"
+        android:layout_alignParentTop="true"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:id="@+id/layout_agree_content"
+        android:layout_below="@+id/title_terms_conditions"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/agree_btn"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <WebView
+                android:id="@+id/agree_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="@dimen/ten" />
+        </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:id="@+id/agree_btn"
+        android:layout_marginTop="@dimen/twenty"
+        android:layout_width="match_parent"
+        android:background="@color/btn_sign"
+        android:textColor="@color/btn_sign_text_color"
+        android:layout_marginLeft="@dimen/ten"
+        android:layout_marginRight="@dimen/ten"
+        android:layout_marginBottom="@dimen/twenty"
+        android:paddingTop="@dimen/five"
+        android:paddingBottom="@dimen/five"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/i_agree_btn" />
+</RelativeLayout>

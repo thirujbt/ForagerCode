@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#E3F0A4</color>
+    <color name="black">#000</color>
+    <color name="btn_sign">#F8D079</color>
+    <color name="btn_sign_text_color">#697930</color>
+    <color name="get_started_color">#FFC23A</color>
+    <color name="get_started_text">#707B3B</color>
+    <color name="picker_title_bg_color">#7D8B4C</color>
+    <color name="white">#fff</color>
+    <color name="red">#f00</color>
+    <color name="cursor_color">#00F</color>
+    <color name="text_hint_color">#C0C2B1</color>
+
+    <color name="check">#FF000000</color>
+
+    <color name="child_divider_color">#C8C7CC</color>
+
+    <color name="red_dialog_bg">#880016</color>
+    <color name="yellow_dialog_bg">#f8d485</color>
+    <color name="white_add_transparent">#25ffffff</color>
+    <color name="transparent">#80000000</color>
+    <color name="logo">#eef3b6</color>
+
+</resources>

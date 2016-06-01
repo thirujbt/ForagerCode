@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/selected"
+        android:drawable="@drawable/right_reverse_arrow"
+        android:state_expanded="true" />
+
+    <item
+        android:id="@+id/usual"
+        android:drawable="@drawable/right_arrow"
+        android:state_expanded="false"
+        />
+
+    <transition
+        android:fromId="@+id/usual"
+        android:toId="@+id/selected"
+        >
+        <animation-list>
+            <!--fill in your animation here-->
+            <item android:duration="200"></item>
+        </animation-list>
+    </transition>
+</selector>

@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativevideo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WorkFragment">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ten">
+
+        <ImageButton
+            android:id="@+id/videoback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/title_register"
+            android:layout_alignTop="@+id/title_register"
+            android:background="@android:color/transparent"
+            android:src="@drawable/back"
+            android:layout_marginLeft="@dimen/ten"
+           />
+
+        <TextView
+            android:id="@+id/title_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/works"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@color/black"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:layout_marginTop="@dimen/ten"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+        <VideoView
+            android:id="@+id/video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="@dimen/twenty"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/back"
+            android:background="@color/transparent" />
+
+
+    </RelativeLayout>
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/back"
+            android:background="@color/transparent" />
+    </LinearLayout>-->
+
+</LinearLayout>

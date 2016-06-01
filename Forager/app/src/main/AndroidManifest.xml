@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.forager.meal.ui"
+    android:versionCode="2"
+    android:versionName="1.1">
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/forager_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="label,icon">
+
+
+        <activity
+            android:name="com.forager.meal.ui.activity.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.forager.meal.ui.activity.HomeScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.forager.meal.ui.activity.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.forager.meal.ui.activity.SignInActivity"
+            android:label="@string/title_activity_sign_in"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.forager.meal.ui.activity.ForgotPasswordActivity"
+            android:label="@string/title_activity_forgot_password"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.forager.meal.ui.activity.IntroActivity"
+            android:label="@string/title_activity_forgot_password"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.forager.meal.ui.activity.DashBoardActivity"
+            android:label="@string/title_activity_dash_board"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.forager.meal.ui.activity.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.forager.meal.ui.activity.BodyConsumptionActivty"
+            android:label="@string/title_activity_body_composition"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden">
+
+        </activity>
+        <activity
+            android:name="com.forager.meal.ui.activity.GoalActivity"
+            android:label="@string/title_activity_goal"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity
+            android:name="com.forager.meal.ui.activity.TermsAndConditions"
+            android:label="@string/title_activity_terms_and_conditions"
+            android:screenOrientation="portrait"></activity>
+
+        <service
+            android:name="com.forager.meal.service.AlarmService"
+            android:enabled="true" />
+        <service
+            android:name="com.forager.meal.service.BackgroundService"
+            android:enabled="true" />
+
+        <receiver android:name="com.forager.meal.service.ResetFood">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

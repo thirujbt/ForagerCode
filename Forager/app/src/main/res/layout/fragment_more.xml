@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe3f0a4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/more_title" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|center_horizontal"
+        android:layout_marginTop="@dimen/ten">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btn_upgrade"
+                android:layout_width="@dimen/two_fifty"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/ten"
+                android:background="@color/btn_sign"
+                android:text="@string/upgrade"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_sign_text_color" />
+
+            <Button
+                android:id="@+id/btn_about"
+                android:layout_width="@dimen/two_fifty"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/ten"
+                android:background="@color/btn_sign"
+                android:text="@string/about"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_sign_text_color" />
+
+            <Button
+                android:id="@+id/btn_works"
+                android:layout_width="@dimen/two_fifty"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/ten"
+                android:background="@color/btn_sign"
+                android:text="@string/works"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_sign_text_color" />
+
+            <Button
+                android:id="@+id/btn_blog"
+                android:layout_width="@dimen/two_fifty"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/ten"
+                android:background="@color/btn_sign"
+                android:text="@string/blog"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_sign_text_color" />
+
+            <Button
+                android:id="@+id/btn_feedback"
+                android:layout_width="@dimen/two_fifty"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/ten"
+                android:background="@color/btn_sign"
+                android:text="@string/feedback"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_sign_text_color" />
+
+            <Button
+                android:id="@+id/btn_share"
+                android:layout_width="@dimen/two_fifty"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/ten"
+                android:background="@color/btn_sign"
+                android:text="@string/share"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_sign_text_color" />
+
+            <Button
+                android:id="@+id/btn_change_password"
+                android:layout_width="@dimen/two_fifty"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/ten"
+                android:background="@color/btn_sign"
+                android:text="@string/more_change_password"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_sign_text_color" />
+
+            <Button
+                android:id="@+id/btn_terms_conditions"
+                android:layout_width="@dimen/two_fifty"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/ten"
+                android:background="@color/btn_sign"
+                android:text="@string/terms_and_conditions"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_sign_text_color" />
+
+            <Button
+                android:id="@+id/btn_sign_out"
+                android:layout_width="@dimen/two_fifty"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/ten"
+                android:background="@color/btn_sign"
+                android:text="@string/sign_out"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_sign_text_color" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

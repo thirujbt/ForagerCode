@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.forager.meal.ui.fragment.TermsAndConditionFragment">
+
+    <ImageButton
+        android:id="@+id/termsback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/title_register"
+        android:layout_alignTop="@+id/title_register"
+        android:background="@android:color/transparent"
+        android:src="@drawable/back" />
+
+    <TextView
+        android:id="@+id/title_terms_conditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/terms_and_conditions"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@color/black" />
+
+    <ScrollView
+        android:id="@+id/layout_agree_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/agree_btn"
+        android:layout_below="@+id/title_terms_conditions">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <WebView
+                android:id="@+id/agree_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="@dimen/ten" />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

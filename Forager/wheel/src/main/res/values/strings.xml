@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="forager_app_name">Wheel</string>
+    <string name="hello_world">Hello world!</string>
+    <color name="background">#E3F0A4</color>
+
+</resources>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="250dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/pop_up_dialog"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/two"
+        android:background="@color/yellow_dialog_bg"
+        android:text="@string/text_calories"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/calories_colon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/two"
+        android:layout_toRightOf="@+id/calories"
+        android:background="@color/yellow_dialog_bg"
+        android:text="@string/text_colon"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/calories_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/two"
+        android:layout_toRightOf="@+id/calories_colon"
+        android:background="@color/yellow_dialog_bg"
+        android:text="100"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/carbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calories"
+        android:layout_margin="@dimen/two"
+        android:background="@color/yellow_dialog_bg"
+        android:text="@string/text_carbs"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/carbs_colon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/calories_colon"
+        android:layout_alignTop="@+id/carbs"
+        android:layout_below="@+id/calories"
+        android:layout_toRightOf="@+id/carbs"
+        android:background="@color/yellow_dialog_bg"
+        android:text="@string/text_colon"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/carbs_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/calories_value"
+        android:layout_alignStart="@+id/calories_value"
+        android:layout_alignTop="@+id/carbs"
+
+        android:layout_below="@+id/calories"
+        android:layout_marginBottom="@dimen/two"
+        android:layout_marginLeft="@dimen/two"
+        android:layout_marginRight="@dimen/fifty"
+        android:layout_toRightOf="@+id/carbs_colon"
+        android:background="@color/yellow_dialog_bg"
+        android:text="23g"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/fiber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/carbs"
+        android:layout_margin="@dimen/two"
+        android:background="@color/yellow_dialog_bg"
+
+        android:text="@string/text_fiber"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/fiber_colon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/calories_colon"
+        android:layout_alignTop="@+id/fiber"
+        android:layout_below="@+id/carbs"
+        android:layout_toRightOf="@+id/fiber"
+        android:background="@color/yellow_dialog_bg"
+        android:text="@string/text_colon"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/fiber_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/carbs_value"
+        android:layout_alignStart="@+id/carbs_value"
+        android:layout_alignTop="@+id/fiber"
+        android:layout_below="@+id/carbs"
+        android:layout_toRightOf="@+id/fiber_colon"
+        android:background="@color/yellow_dialog_bg"
+        android:text="2g"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/fat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/protien"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/protien"
+        android:layout_marginBottom="@dimen/two"
+        android:layout_marginTop="@dimen/two"
+        android:layout_toRightOf="@+id/calories_value"
+        android:background="@color/yellow_dialog_bg"
+        android:text="@string/text_fat"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/fat_colon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/two"
+        android:layout_toRightOf="@+id/fat"
+        android:background="@color/yellow_dialog_bg"
+        android:text="@string/text_colon"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/fat_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/two"
+        android:layout_toRightOf="@+id/fat_colon"
+        android:background="@color/yellow_dialog_bg"
+        android:text="1g"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/protien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fat"
+        android:layout_marginRight="@dimen/two"
+        android:layout_marginTop="@dimen/two"
+        android:layout_toRightOf="@+id/carbs_value"
+        android:background="@color/yellow_dialog_bg"
+        android:text="@string/text_protein"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/protien_colon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/protien"
+        android:layout_below="@+id/fat"
+        android:layout_marginRight="@dimen/two"
+        android:layout_toRightOf="@+id/protien"
+        android:background="@color/yellow_dialog_bg"
+        android:text="@string/text_colon"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/protien_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/carbs"
+        android:layout_below="@+id/calories"
+        android:layout_marginRight="@dimen/two"
+        android:layout_toRightOf="@+id/protien_colon"
+        android:background="@color/yellow_dialog_bg"
+        android:text="23g"
+        android:textColor="@color/black" />
+
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/thirty"
+        android:layout_alignLeft="@+id/protien"
+        android:layout_alignRight="@+id/protien_value"
+        android:layout_below="@+id/protien"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="@dimen/eight"
+        android:layout_marginRight="@dimen/eight"
+        android:layout_marginTop="@dimen/thirteen"
+        android:background="@color/btn_sign"
+        android:text="@string/btn_add"
+        android:textAllCaps="false"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

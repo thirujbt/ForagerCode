@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Forager</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="intro">Intro</string>
+    <string name="register"><u>Register</u></string>
+    <string name="copy_rights">Copyright 2015 ForagerPro.\nAll Rights Reserved.</string>
+    <string name="title_activity_register">Register</string>
+    <string name="email_hint">Enter Email</string>
+    <string name="password_hint">Preferred Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="sign_btn">Sign In</string>
+    <string name="sign_up_btn">Sign Up</string>
+    <string name="submit_btn">Submit</string>
+    <string name="save_btn">Save</string>
+    <string name="next_btn">Next</string>
+    <string name="i_agree_btn">I Agree, Create my Meal Plan!</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="title_activity_sign_in">Sign In</string>
+    <string name="title_fragment_shop_meal">Your Meal Plan</string>
+
+    <string name="remember_me">Remember me</string>
+    <string name="forget_password">Forgot Your Password?</string>
+    <string name="signin_password_hint">Enter Your Password</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <string name="forgot_noworries">Forgot your password? No worries! Enter your email address below and we will send it to you.</string>
+    <string name="new_password_btn">New Password</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_profile">Create Your Profile</string>
+    <string name="name_hint">Enter Your Name</string>
+    <string name="birthdate_hint">Enter Your Birthdate</string>
+    <string name="country_hint">Enter Your Country</string>
+    <string name="country">Country</string>
+    <string name="dob">Date of Birth</string>
+
+
+    <string-array name="months_array">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <string name="units">Units</string>
+    <string name="age">Age</string>
+    <string name="age_hint">Years</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="weight_hint_ussystem">lbs</string>
+    <string name="height_hint_ussystem">ft - inch</string>
+    <string name="weight_hint_metric">kg</string>
+    <string name="height_hint_metric">cm</string>
+    <string name="gender">Gender</string>
+    <string name="activity_level">Activity level</string>
+    <string name="your_daily_calo">Your daily caloric needs</string>
+    <string name="your_daily_hint">Kcal</string>
+    <string name="title_activity_body_composition">Your Body Composition</string>
+
+
+    <string-array name="units_array">
+        <item>Metric</item>
+        <item>U.S. System</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="activity_level_array">
+        <item>Little to no exercise</item>
+        <item>1-3 Workouts per week</item>
+        <item>3-5 Workouts per week</item>
+        <item>6-7 Workouts per week</item>
+        <item>Workout twice a day</item>
+    </string-array>
+
+    <string name="title_activity_goal">What is your Goal?</string>
+    <string name="choose_goal_hint">Choose a goal</string>
+    <string name="btn_create_meal">Create Your Meal Plan</string>
+    <string name="need_consume">You need to consume</string>
+    <string name="mainain_weight">to maintain your current weight</string>
+    <string name="reach_goal">to reach your goal of</string>
+
+    <string-array name="choose_goal_array_ussystem">
+        <item>Maintain Weight</item>
+        <item>Lose 1 lb of fat per week</item>
+        <item>Lose 2 lb of fat per week</item>
+        <item>Gain 1 lb of muscle per month</item>
+        <item>Gain 2 lb of muscle per month</item>
+        <item>Aggressive Mass Gain</item>
+    </string-array>
+    <string-array name="choose_goal_array_metric">
+        <item>Maintain Weight</item>
+        <item>Lose .45 Kg of fat per week</item>
+        <item>Lose .90 Kg of fat per week</item>
+        <item>Gain .45 Kg of muscle per month</item>
+        <item>Gain .90 Kg of muscle per month</item>
+        <item>Aggressive Mass Gain</item>
+    </string-array>
+    <string-array name="goal_array_ussystem_value">
+        <item>to maintain your current weight.</item>
+        <item>losing 1 lb of fat per week.</item>
+        <item>losing 2 lb of fat per week.</item>
+        <item>gaining 1 lb of muscle per month.</item>
+        <item>gaining 2 lb of muscle per month.</item>
+        <item>gaining of muscle per month.</item>
+    </string-array>
+    <string-array name="goal_array_metric_value">
+        <item>to maintain your current weight.</item>
+        <item>losing .45 Kg of fat per week.</item>
+        <item>losing .90 Kg of fat per week.</item>
+        <item>gaining .45 Kg of muscle per month.</item>
+        <item>gaining .90 Kg of muscle per month.</item>
+        <item>gaining of muscle per month.</item>
+    </string-array>
+
+    <string name="title_activity_terms_and_conditions">Terms And Conditions</string>
+    <string name="agree_terms"><b>Agreement between users and ForagerPro.com and Forager Mobile Application</b></string>
+    <string name="agree_content">Agreement between user and ForagerPro.com and Forager Mobile Application
+
+Welcome to ForagerPro.com and the Forager Mobile Application. The ForagerPro.com website and Forager Mobile Application are comprised of various web pages and services operated by Forager. ForagerPro.com and Forager Mobile Application is offered to you conditioned on your acceptance without modification of the terms, conditions, and notices contained here in (the "Terms"). Your use of ForagerPro.com and Forager Mobile Application constitutes your agreement to all such Terms. Please read these terms carefully, and keep a copy of them for your reference.
+
+ForagerPro.com is a News and information website and Forager Mobile Application is a health and nutrition mobile phone application.
+
+The website will explain the Forager mobile phone application.
+
+Privacy
+
+Your use of ForagerPro.com and Forager Mobile Application is subject to Forager\'s Privacy Policy. Please review our Privacy Policy, which also governs the Site and informs users of our data collection practices.
+
+Electronic Communications
+
+Visiting ForagerPro.com and Forager Mobile Application or sending emails to Forager constitutes electronic communications. You consent to receive electronic communications and you agree that all agreements, notices, disclosures and other communications that we provide to you electronically, via email and on the Site, satisfy any legal requirement that such communications be in writing.
+
+Your account
+
+If you use this site or mobile application, you are responsible for maintaining the confidentiality of your account and password and for restricting access to your computer, and you agree to accept responsibility for all activities that occur under your account or password. You may not assign or otherwise transfer your account to any other person or entity. You acknowledge that Forager is not responsible for third party access to your account that results from theft or misappropriation of your account. Forager and its associates reserve the right to refuse or cancel service, terminate accounts, or remove or edit content in our sole discretion.
+
+Forager does not knowingly collect, either online or offline, personal information from persons under the age of thirteen. If you are under 18, you may use ForagerPro.com and Forager Mobile Application only with permission of a parent or guardian.
+
+Links to third party sites/Third party services
+
+ForagerPro.com and Forager Mobile Application may contain links to other websites ("Linked Sites"). The Linked Sites are not under the control of Forager and Forager is not responsible for the contents of any Linked Site, including without limitation any link contained in a Linked Site, or any changes or updates to a Linked Site. Forager is providing these links to you only as a convenience, and the inclusion of any link does not imply endorsement by Forager of the site or any association with its operators.
+
+Certain services made available via ForagerPro.com and Forager Mobile Application are delivered by third party sites and organizations. By using any product, service or functionality originating from the ForagerPro.com and Forager Mobile Application domain, you hereby acknowledge and consent that Forager may share such information and data with any third party with whom Forager has a contractual relationship to provide the requested product, service or functionality on behalf of ForagerPro.com and Forager Mobile Application users and customers.
+
+No unlawful or prohibited use/Intellectual Property
+
+You are granted a non-exclusive, non-transferable, revocable license to access and use ForagerPro.com and Forager Mobile Application strictly in accordance with these terms of use. As a condition of your use of the Site, you warrant to Forager that you will not use the Site for any purpose that is unlawful or prohibited by these Terms. You may not use the Site in any manner which could damage, disable, overburden, or impair the Site or interfere with any other party\'s use and enjoyment of the Site. You may not obtain or attempt to obtain any materials or information through any means not intentionally made available or provided for through the Site.
+
+All content included as part of the Service, such as text, graphics, logos, images, as well as the compilation there of, and any software used on the Site, is the property of Forager or its suppliers and protected by copyright and other laws that protect intellectual property and proprietary rights. You agree to observe and abide by all copyright and other proprietary notices, legends or other restrictions contained in any such content and will not make any changes there to.
+
+You will not modify, publish, transmit, reverse engineer, participate in the transfer or sale, create derivative works, or in any way exploit any of the content, in whole or in part, found on the Site. Forager content is not for resale. Your use of the Site does not entitle you to make any unauthorized use of any protected content, and in particular you will not delete or alter any proprietary rights or attribution notices in any content. You will use protected content solely for your personal use, and will make no other use of the content without the express written permission of Forager and the copyright owner. You agree that you do not acquire any ownership rights in any protected content. We do not grant you any licenses, express or implied, to the intellectual property of Forager or our licensors except as expressly authorized by these Terms.
+
+International Users
+
+The Service is controlled, operated and administered by Forager from our offices within the USA. If you access the Service from a location outside the USA, you are responsible for compliance with all local laws. You agree that you will not use the Forager Content accessed through ForagerPro.com and Forager Mobile Application in any country or in any manner prohibited by any applicable laws, restrictions or regulations.
+
+Indemnification
+
+You agree to indemnify, defend and hold harmless Forager, its officers, directors, employees, agents and third parties, for any losses, costs, liabilities and expenses (including reasonable attorneys\' fees) relating to or arising out of your use of or inability to use the Site or services, any user postings made by you, your violation of any terms of this Agreement or your violation of any rights of a third party, or your violation of any applicable laws, rules or regulations. Forager reserves the right, at its own cost, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you, in which event you will fully cooperate with Forager in asserting any available defenses.
+
+Liability disclaimer
+
+THE INFORMATION, SOFTWARE, PRODUCTS, AND SERVICES INCLUDED IN OR AVAILABLE THROUGH THE SITE MAY INCLUDE INACCURACIES OR TYPOGRAPHICAL ERRORS. CHANGES ARE PERIODICALLY ADDED TO THE INFORMATION HEREIN. FORAGER AND/OR ITS SUPPLIERS MAY MAKE IMPROVEMENTS AND/OR CHANGES IN THE SITE AT ANY TIME.
+
+FORAGER AND/OR ITS SUPPLIERS MAKE NO REPRESENTATIONS ABOUT THE SUITABILITY, RELIABILITY, AVAILABILITY, TIMELINESS, AND ACCURACY OF THE INFORMATION, SOFTWARE, PRODUCTS, SERVICES AND RELATED GRAPHICS CONTAINED ON THE SITE FOR ANY PURPOSE. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ALL SUCH INFORMATION, SOFTWARE, PRODUCTS, SERVICES AND RELATED GRAPHICS ARE PROVIDED "AS IS" WITHOUT WARRANTY OR CONDITION OF ANY KIND. FORAGER AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH REGARD TO THIS INFORMATION, SOFTWARE, PRODUCTS, SERVICES AND RELATED GRAPHICS, INCLUDING ALL IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL FORAGER AND/OR ITS SUPPLIERS BE LIABLE FOR ANY DIRECT, INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL, CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF USE, DATA OR PROFITS, ARISING OUT OF OR IN ANY WAY CONNECTED WITH THE USE OR PERFORMANCE OF THE SITE, WITH THE DELAY OR INABILITY TO USE THE SITE OR RELATED SERVICES, THE PROVISION OF OR FAILURE TO PROVIDE SERVICES, OR FOR ANY INFORMATION, SOFTWARE, PRODUCTS, SERVICES AND RELATED GRAPHICS OBTAINED THROUGH THE SITE, OR OTHERWISE ARISING OUT OF THE USE OF THE SITE, WHETHER BASED ON CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY OR OTHERWISE, EVEN IF FORAGER OR ANY OF ITS SUPPLIERS HAS BEEN ADVISED OF THE POSSIBILITY OF DAMAGES. BECAUSE SOME STATES/JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU. IF YOU ARE DISSATISFIED WITH ANY PORTION OF THE SITE, OR WITH ANY OF THESE TERMS OF USE, YOUR SOLE AND EXCLUSIVE REMEDY IS TO DISCONTINUE USING THE SITE.
+
+Termination/access restriction
+
+Forager reserves the right, in its sole discretion, to terminate your access to the Site and the related services or any portion thereof at any time, without notice. To the maximum extent permitted by law, this agreement is governed by the laws of the State of California and you hereby consent to the exclusive jurisdiction and venue of courts in California in all disputes arising out of or relating to the use of the Site. Use of the Site is unauthorized in any jurisdiction that does not give effect to all provisions of these Terms, including, without limitation, this section.
+
+You agree that no joint venture, partnership, employment, or agency relationship exists between you and Forager as a result of this agreement or use of the Site. Forager\'s performance of this agreement is subject to existing laws and legal process, and nothing contained in this agreement is in derogation of Forager\'s right to comply with governmental, court and law enforcement requests or requirements relating to your use of the Site or information provided to or gathered by Forager with respect to such use. If any part of this agreement is determined to be invalid or unenforceable pursuant to applicable law including, but not limited to, the warranty disclaimers and liability limitations set forth above, then the invalid or unenforceable provision will be deemed superseded by a valid, enforceable provision that most closely matches the intent of the original provision and the remainder of the agreement shall continue in effect.
+
+Unless otherwise specified herein, this agreement constitutes the entire agreement between the user and Forager with respect to the Site and it supersedes all prior or contemporaneous communications and proposals, whether electronic, oral or written, between the user and Forager with respect to the Site. A printed version of this agreement and of any notice given in electronic form shall be admissible in judicial or administrative proceedings based upon or relating to this agreement to the same extent an d subject to the same conditions as other business documents and records originally generated and maintained in printed form. It is the express wish to the parties that this agreement and all related documents be written in English.
+
+Changes to Terms
+
+Forager reserves the right, in its sole discretion, to change the Terms under which ForagerPro.com and Forager Mobile Application is offered. The most current version of the Terms will supersede all previous versions. Forager encourages you to periodically review the Terms to stay informed of our updates.
+
+Contact Us
+
+Forager welcomes your questions or comments regarding the Terms:
+
+Forager
+
+FORAGERPRO@gmail.com
+
+Effective as of February 01, 2015</string>
+    <string name="title_activity_dash_board">DashBoardActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="some">say hello</string>
+    <string name="skip">Skip</string>
+    <string name="take_photo">Take photo</string>
+    <string name="upload_library">Upload from library</string>
+    <string name="cancel">Cancel</string>
+
+
+    <!-- More Page texts -->
+
+    <string name="more">More</string>
+    <string name="about">About</string>
+    <string name="upgrade">Upgrade</string>
+
+
+    <string name="more_change_password">Password</string>
+    <string name="blog">Blog </string>
+    <string name="works">Video</string>
+    <string name="feedback">Feedback</string>
+    <string name="change_password">Change Password</string>
+
+    <string name="change_password_hint">Current Password</string>
+    <string name="new_passwore_hint">New Password</string>
+    <string name="more_terms_condition">Terms</string>
+    <string name="terms_and_conditions">Terms</string>
+    <string name="share">Share</string>
+    <string name="sign_out">Signout</string>
+    <string name="terms_conditions">Terms &amp; conditions</string>
+    <string name="title_activity_more_page">MorePage</string>
+    <string name="title_activity_break_fast_">BreakFast_Activity</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+    <string name="feedback_to">Forager@ForagerPro.com</string>
+    <string name="feedback_subject">Feedback</string>
+    <!--<string name="feedback_body">
+ Hello Forager Admin,
+
+I would like to suggest a new feature and leave feedback for ForagerPro:
+
+
+
+Thanks!</string>-->
+
+
+    <string name="active_plan">Active</string>
+    <string name="activate_plan">Activate Plan</string>
+
+    <string name="text_calories">Calories</string>
+    <string name="text_colon">:</string>
+    <string name="text_carbs">Carbs</string>
+    <string name="text_fiber">Fiber</string>
+    <string name="text_fat">Fat</string>
+    <string name="text_protein">Protein</string>
+    <string name="btn_add">Add</string>
+    <string name="update_btn">Update</string>
+    <string name="title_shopping_list">Shopping List</string>
+    <string name="alert_message_goal">Changing your Meal Plans caloric range will reset your Meal Plan for the day.Is this OK? </string>
+
+
+     <string name="purchase_text_first">
+You will have unlimited access to all meal plans, including all six diet styles, shopping lists, supplements and guidelines to make reaching your goals fast as easy as possible.</string>
+    <string name="purchase_text_second">Over 50+ foods added to your diet so you can eat the foods you love while getting in the best shape of your life. Also, you can change your diet style meal by meal if you wish, giving you the freedom to try any diet!/n/n </string>
+    <string name="purchase_text_third">Buy now and take action towards reaching your health and fitness goals with the ForagerPro Pro membership.
+</string>
+    <string name="purchase_text_fourth">You will have extremely effective meal plans, perfect for losing fat fast and getting fit and healthy!  Get started now!</string>
+
+
+    <string-array name="doller">
+        <item>$6.99/month</item>
+        <item>$4.99/month</item>
+        <item>$2.99/month</item>
+    </string-array>
+
+    <string-array name="save">
+        <item> </item>
+        <item>SAVE 29%</item>
+        <item>SAVE 58%</item>
+    </string-array>
+
+    <string-array name="month">
+        <item>1 MONTH</item>
+        <item>3 MONTH</item>
+        <item>12 MONTH</item>
+    </string-array>
+
+
+</resources>

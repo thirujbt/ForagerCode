@@ -1,0 +1,66 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="about_header_margin_top">15dp</dimen>
+    <dimen name="about_image_width">300dp</dimen>
+    <dimen name="about_image_height">150dp</dimen>
+    <dimen name="about_webview_margin_top">5dp</dimen>
+
+    <dimen name="body_margin_Top">30dp</dimen>
+    <dimen name="body_margin_right">10dp</dimen>
+    <dimen name="body_margin_top">10dp</dimen>
+    <dimen name="body_margin_left">10dp</dimen>
+    <dimen name="body_padding_right">5dp</dimen>
+    <dimen name="body_padding_left">5dp</dimen>
+    <dimen name="body_padding_top">5dp</dimen>
+    <dimen name="body_padding_bottom">5dp</dimen>
+    <dimen name="body_button_margin_top">20dp</dimen>
+    <dimen name="body_calendar_elevation">10dp</dimen>
+    <dimen name="body_image_button">2dp</dimen>
+    <dimen name="body_layout_height">120dp</dimen>
+
+    <dimen name="breakFast_image_margin_top">15dp</dimen>
+    <dimen name="breakFast_image_margin_right">10dp</dimen>
+    <dimen name="breakFast_image_margin_left">10dp</dimen>
+    <dimen name="breakFast_image_margin_bottom">15dp</dimen>
+    <dimen name="breakFast_layout_height">50dp</dimen>
+    <dimen name="breakFast_image_width">28dp</dimen>
+    <dimen name="breakFast_image_height">28dp</dimen>
+    <dimen name="breakFast_header_margin_left">50dp</dimen>
+    <dimen name="breakFast_listView_margin_top">5dp</dimen>
+    <dimen name="breakFast_listView_margin_bottom">5dp</dimen>
+    <dimen name="breakFast_listView_margin_right">5dp</dimen>
+    <dimen name="breakFast_listView_margin_left">5dp</dimen>
+    <dimen name="breakFast_chart_layout_height">150dp</dimen>
+    <dimen name="breakFast_chart_height">110dp</dimen>
+    <dimen name="breakFast_chart_width">110dp</dimen>
+    <dimen name="breakFast_chart_value_margin_left">22dp</dimen>
+
+    <dimen name="two">2dp</dimen>
+    <dimen name="three">3dp</dimen>
+    <dimen name="five">5dp</dimen>
+    <dimen name="eight">8dp</dimen>
+    <dimen name="seven">7dp</dimen>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="thirteen">13dp</dimen>
+    <dimen name="fifteen">15dp</dimen>
+    <dimen name="eighteen">18dp</dimen>
+    <dimen name="twenty">20dp</dimen>
+    <dimen name="thirty">30dp</dimen>
+    <dimen name="seventy">70dp</dimen>
+    <dimen name="twenty_two">22dp</dimen>
+    <dimen name="twenty_five">25dp</dimen>
+    <dimen name="twenty_eight">28dp</dimen>  <dimen name="two_hundred_twenty_five">225dp</dimen>
+    <dimen name="fifty">50dp</dimen>
+    <dimen name="sixty">60dp</dimen>
+    <dimen name="hundered">100dp</dimen>
+    <dimen name="one_one_ten">110dp</dimen>
+    <dimen name="one_twenty">120dp</dimen>
+    <dimen name="one_fifty">150dp</dimen>
+    <dimen name="two_fifty">250dp</dimen>
+    <dimen name="two_hundred">200dp</dimen>
+    <dimen name="three_hundered">300dp</dimen>
+
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="bottom"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/dialog_rounded_corner">
+
+        <TextView
+            android:id="@+id/profile_skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skip"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:background="#fffaf9d9"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/five" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffd2d682" />
+
+        <TextView
+            android:id="@+id/take_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fffaf9d9"
+            android:text="@string/take_photo"
+            android:textColor="@color/black"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/five"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#ffd2d682"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/upload_library"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_library"
+            android:background="#fffaf9d9"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/five" />
+
+        <View
+            android:layout_width="match_parent"
+            android:background="#ffd2d682"
+            android:layout_height="@dimen/three"/>
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@color/black"
+            android:background="#ffffffff"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/five"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.forager.meal.ui.activity.TermsAndConditions">
+    <ScrollView
+        android:id="@+id/layout_about"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title_about"
+                android:layout_width="match_parent"
+                android:text="About"
+                android:layout_marginTop="@dimen/about_header_margin_top"
+                android:layout_marginBottom="@dimen/about_header_margin_top"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/back"/>
+
+            <ImageView
+                android:layout_width="@dimen/about_image_width"
+                android:layout_height="@dimen/about_image_height"
+                android:id="@+id/image_about"
+                android:src="@drawable/logo"
+                android:layout_gravity="center_horizontal" />
+
+            <WebView
+                android:id="@+id/about_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="@dimen/about_webview_margin_top"
+                android:layout_marginLeft="@dimen/about_webview_margin_top"
+                android:layout_marginRight="@dimen/about_webview_margin_top" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.forager.meal.ui.activity.TermsAndConditions">
+
+    <LinearLayout
+        android:id="@+id/guideLine_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <ImageView
+        android:id="@+id/back_body"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+
+        android:background="@android:color/transparent"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:id="@+id/meal_plan_logo"
+        android:paddingRight="@dimen/thirty"
+        android:src="@drawable/forager_leaf"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/title_guideLines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guidelines"
+        android:layout_marginLeft="20dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+
+        />
+
+
+    </LinearLayout>
+
+   <!-- <TextView
+        android:id="@+id/title_guidelines"
+        android:layout_width="wrap_content"
+        android:text="GuideLines"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:gravity="center_vertical|center|center_horizontal"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/forager_leaf"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />-->
+    <ScrollView
+        android:id="@+id/layout_guidelines_content"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/guideLine_title">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <WebView
+                android:id="@+id/guidelines_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="@dimen/ten" />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

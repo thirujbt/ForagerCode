@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/thirty"
+        android:id="@+id/imageView2"
+        android:src="@drawable/meal_plan_title"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/shop_meal_list"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:descendantFocusability="blocksDescendants"
+        android:divider="@drawable/dotted_line"
+        android:dividerHeight="@dimen/two"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
